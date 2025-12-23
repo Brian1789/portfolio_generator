@@ -41,7 +41,12 @@ h3 {
     background: #fff;
     padding: 2rem;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
 }
 
 .form-section > div {
@@ -83,6 +88,20 @@ button {
 
 button:hover {
     background: #286090;
+}
+
+.download-btn {
+    background: #28a745;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    box-shadow: 0 0 15px rgba(40, 167, 69, 0.5);
+    transition: all 0.3s ease;
+}
+
+.download-btn:hover {
+    background: #218838;
+    box-shadow: 0 0 25px rgba(40, 167, 69, 0.8);
+    transform: translateY(-2px);
 }
 
 .remove-skill,
